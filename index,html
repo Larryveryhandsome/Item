@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>滿築5 案場接待處必帶物品清單</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 18px;
+            color: #666;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e9ecef;
+        }
+        .add-row {
+            background-color: #f8f9fa;
+            color: #999;
+            font-style: italic;
+        }
+        .add-note {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>滿築5 案場接待處必帶物品清單</h1>
+    <div class="intro">
+        以下是接待顧客時的必備物品，確保展示優勢並順利銷售！價格統一為600-700萬。
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>類別</th>
+                    <th>物品</th>
+                    <th>數量</th>
+                    <th>用途</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 實體資料類 -->
+                <tr>
+                    <td>實體資料</td>
+                    <td>參觀流程與問答手冊</td>
+                    <td>10-20份</td>
+                    <td>顧客參考</td>
+                </tr>
+                <tr>
+                    <td>實體資料</td>
+                    <td>建材與設備表</td>
+                    <td>5-10份</td>
+                    <td>證明品質</td>
+                </tr>
+                <tr>
+                    <td>實體資料</td>
+                    <td>格局平面圖</td>
+                    <td>15份</td>
+                    <td>展示空間</td>
+                </tr>
+                <tr>
+                    <td>實體資料</td>
+                    <td>時價登錄資料</td>
+                    <td>5份</td>
+                    <td>證明600-700萬價格優勢</td>
+                </tr>
+                <tr>
+                    <td>實體資料</td>
+                    <td>契約範本</td>
+                    <td>2-3份</td>
+                    <td>保障權益</td>
+                </tr>
+                <tr>
+                    <td>實體資料</td>
+                    <td>停車位產權說明</td>
+                    <td>5份</td>
+                    <td>證明合法性</td>
+                </tr>
 
+                <!-- 展示工具類 -->
+                <tr>
+                    <td>展示工具</td>
+                    <td>平板/筆電</td>
+                    <td>1-2台</td>
+                    <td>動態展示</td>
+                </tr>
+                <tr>
+                    <td>展示工具</td>
+                    <td>建材樣品</td>
+                    <td>每類1-2件</td>
+                    <td>提升信任</td>
+                </tr>
+                <tr>
+                    <td>展示工具</td>
+                    <td>模型/沙盤</td>
+                    <td>1個</td>
+                    <td>整體布局</td>
+                </tr>
+                <tr>
+                    <td>展示工具</td>
+                    <td>太陽能收益表</td>
+                    <td>5份</td>
+                    <td>展示600-700萬長期價值</td>
+                </tr>
+
+                <!-- 輔助物品類 -->
+                <tr>
+                    <td>輔助物品</td>
+                    <td>驗屋工具清單</td>
+                    <td>5份</td>
+                    <td>驗屋指引</td>
+                </tr>
+                <tr>
+                    <td>輔助物品</td>
+                    <td>清潔用品</td>
+                    <td>1套</td>
+                    <td>環境整潔</td>
+                </tr>
+                <tr>
+                    <td>輔助物品</td>
+                    <td>便當訂購單</td>
+                    <td>5份</td>
+                    <td>顧客服務</td>
+                </tr>
+                <tr>
+                    <td>輔助物品</td>
+                    <td>名片與聯繫資料</td>
+                    <td>50張</td>
+                    <td>後續聯繫</td>
+                </tr>
+
+                <!-- 預留增加品項位置 -->
+                <tr class="add-row">
+                    <td></td>
+                    <td>（自行新增品項）</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="add-row">
+                    <td></td>
+                    <td>（自行新增品項）</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="add-row">
+                    <td></td>
+                    <td>（自行新增品項）</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="add-note">
+            *預留空間供新增品項，您可手動填入表格或編輯HTML代碼擴充。
+        </div>
+    </div>
+</body>
+</html>
